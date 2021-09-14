@@ -1,29 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T04:23:24.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="l5acTB25DD4xfZSQxMgF" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T08:09:51.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="OGXo3ErhY9_VjqZGm5wz" version="15.2.1" type="github">
   <diagram id="NZ3etfu1tfVT0-AUHIBx" name="Page-1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MWjjnzCd9YI766V_1Q5w-5" value="不等于ND" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MWjjnzCd9YI766V_1Q5w-1" target="MWjjnzCd9YI766V_1Q5w-4">
+        <mxCell id="MWjjnzCd9YI766V_1Q5w-5" value="不等于ND" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MWjjnzCd9YI766V_1Q5w-1" target="MWjjnzCd9YI766V_1Q5w-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MWjjnzCd9YI766V_1Q5w-1" value="&lt;b&gt;计划过程（确定订购点／是否执行计划）&lt;br&gt;&lt;/b&gt;&lt;br&gt;MRP Tpye：&lt;br&gt;* ND （无计划）&lt;br&gt;* VB（人工重订购点计划，&lt;font color=&quot;#ff3333&quot;&gt;包含安全库存&lt;/font&gt;）&lt;br&gt;* PD（物料需求计划）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="MWjjnzCd9YI766V_1Q5w-1" value="&lt;b&gt;计划过程（确定订购点／是否执行计划）&lt;br&gt;&lt;/b&gt;&lt;br&gt;MRP Tpye：&lt;br&gt;* ND （无计划）&lt;br&gt;* VB（人工重订购点计划，&lt;font color=&quot;#ff3333&quot;&gt;包含安全库存&lt;/font&gt;）&lt;br&gt;* PD（物料需求计划）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="115" width="260" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="MWjjnzCd9YI766V_1Q5w-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MWjjnzCd9YI766V_1Q5w-4" target="MWjjnzCd9YI766V_1Q5w-6">
+        <mxCell id="MWjjnzCd9YI766V_1Q5w-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MWjjnzCd9YI766V_1Q5w-4" target="MWjjnzCd9YI766V_1Q5w-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MWjjnzCd9YI766V_1Q5w-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MWjjnzCd9YI766V_1Q5w-4" target="MWjjnzCd9YI766V_1Q5w-9">
+        <mxCell id="MWjjnzCd9YI766V_1Q5w-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MWjjnzCd9YI766V_1Q5w-4" target="MWjjnzCd9YI766V_1Q5w-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MWjjnzCd9YI766V_1Q5w-4" value="&lt;b&gt;批量计算法（确定补货量）&lt;/b&gt;&lt;br&gt;&lt;br&gt;Log Size：&lt;br&gt;* EX（按需，可能会多补）&lt;br&gt;* HB（最大库存水平，不能多补）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="MWjjnzCd9YI766V_1Q5w-4" value="&lt;b&gt;批量计算法（确定补货量）&lt;/b&gt;&lt;br&gt;&lt;br&gt;Log Size：&lt;br&gt;* EX（按需）&lt;br&gt;* H1（目标库存水平+Reqs）&lt;br&gt;* HB（目标库存水平）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="370" y="130" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="MWjjnzCd9YI766V_1Q5w-6" value="&lt;b&gt;批量限制（确定采购批次）&lt;br&gt;&lt;/b&gt;&lt;br&gt;Minimum Lot Size&lt;br&gt;Maximum Lot Size" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+        <mxCell id="MWjjnzCd9YI766V_1Q5w-6" value="&lt;b&gt;批量限制（确定采购批次）&lt;br&gt;&lt;/b&gt;&lt;br&gt;Minimum Lot Size&lt;br&gt;Maximum Lot Size" style="whiteSpace=wrap;html=1;rounded=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="605" y="145" width="155" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWjjnzCd9YI766V_1Q5w-9" value="&lt;b&gt;安全库存（固定需求）&lt;/b&gt;&lt;br&gt;Safety Stock：Text" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="402.5" y="300" width="125" height="80" as="geometry" />
+        <mxCell id="MWjjnzCd9YI766V_1Q5w-9" value="&lt;b&gt;安全库存（视固定需求）&lt;/b&gt;&lt;br&gt;Safety Stock：Text" style="whiteSpace=wrap;html=1;rounded=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="396.25" y="300" width="137.5" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-25T12:57:51.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="t5N0mZAbBKSW7oL8Y7U1" version="15.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-25T13:00:07.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="kTMWHysXiH9AXXja1B7e" version="15.2.5" type="github">
   <diagram id="7-zGbDTkZAwi-mkxw4tC" name="Page-1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,19 +75,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tww-w5JOxRViu9X1COwz-36" value="RequestMappingHandlerMapping" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="320" y="550" width="190" height="60" as="geometry" />
+          <mxGeometry x="331" y="550" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tww-w5JOxRViu9X1COwz-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tww-w5JOxRViu9X1COwz-38" target="Tww-w5JOxRViu9X1COwz-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tww-w5JOxRViu9X1COwz-38" value="获取目标方法HandlerMethod：SimpleController#method" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="560" y="550" width="170" height="60" as="geometry" />
+          <mxGeometry x="560" y="550" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tww-w5JOxRViu9X1COwz-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tww-w5JOxRViu9X1COwz-40" target="Tww-w5JOxRViu9X1COwz-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tww-w5JOxRViu9X1COwz-40" value="通过HandlerMethod获取处理的适配器&lt;font color=&quot;#ff3333&quot;&gt;RequestMappingHandlerAdapter&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="555" y="650" width="180" height="60" as="geometry" />
+          <mxGeometry x="560" y="650" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tww-w5JOxRViu9X1COwz-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tww-w5JOxRViu9X1COwz-44" target="Tww-w5JOxRViu9X1COwz-48">
           <mxGeometry relative="1" as="geometry" />
@@ -99,7 +99,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tww-w5JOxRViu9X1COwz-46" value="组装ModelAndView&lt;br&gt;1. 如果已经&amp;nbsp;requestHandled = true，返回null，比如方法上标记了@ResponseBody，当前 requestHandled = false&lt;br&gt;组装后的ModelAndView是&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;&amp;nbsp;[view=[null]; model={user=User{age=23, name=&#39;Rick&#39;},attr={age=23}}]&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="115" y="910" width="380" height="80" as="geometry" />
+          <mxGeometry x="90" y="910" width="430" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Tww-w5JOxRViu9X1COwz-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tww-w5JOxRViu9X1COwz-48" target="Tww-w5JOxRViu9X1COwz-46">
           <mxGeometry relative="1" as="geometry" />
@@ -111,10 +111,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tww-w5JOxRViu9X1COwz-51" value="applyDefaultViewName 根据/path生成默认的viewName “reqeust”&amp;nbsp;&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&amp;nbsp;[view=&quot;request&quot;; model={user=User{age=23, name=&#39;Rick&#39;}&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;,attr={age=23}}]&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="99" y="1030" width="410.5" height="60" as="geometry" />
+          <mxGeometry x="90" y="1030" width="430" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tww-w5JOxRViu9X1COwz-53" value="视图渲染&lt;br&gt;获取视图ThymeleafView，将model中值放入request scope中，最后在Render。" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1030" width="220" height="60" as="geometry" />
+          <mxGeometry x="560" y="1030" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
